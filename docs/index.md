@@ -6,8 +6,8 @@ If you’re looking to improve your cloud security, an excellent place to start 
 <img src="image/image.png" class="inline"/>
 
 1) Account information 
-    - Configure right contact info under AWS console management including the email address used to set up the account and those listed under Alternate Contacts. As same details are used by AWS for any communication including security breach information
-    - Map a group email address under contact info instead of a single person for more reach
+     * Configure right contact info under AWS console management including the email address used to set up the account and those listed under Alternate Contacts. As same details are used by AWS for any communication including security breach information
+     * Map a group email address under contact info instead of a single person for more reach
 
 2) Provision multi-factor authentication (MFA)
     - MFA is the best way to preserve accounts from inappropriate access. Always set up MFA on your Root user and AWS Identity and Access Management (IAM) users
