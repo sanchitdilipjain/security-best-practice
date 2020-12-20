@@ -23,9 +23,9 @@ If you’re looking to improve your cloud security, an excellent place to start 
 5) Define data security policies
     - Along with network security, a correct security posture is required for the data layer also like S3 buckets. It is really important to classify the data and ensure any sensitive data is not breach
     - Following are the three methods to apply the right security measures for the S3 bucket
-    i) S3 bucket can be secured by enabling public block access on the account
-    ii) Enable encryption at rest or KMS for the buckets accumulating sensitive data
-    iii) Refine and validate IAM & bucket level policies to merely ensure the precise level of permissions is granted irrespective of the specific type of bucket(public/private) 
+         - S3 bucket can be secured by enabling public block access on the account
+         - Enable encryption at rest or KMS for the buckets accumulating sensitive data
+         - Refine and validate IAM & bucket level policies to merely ensure the precise level of permissions is granted irrespective of the specific type of bucket(public/private) 
 
 6) Centralize logging
     - Logging and monitoring are important parts of a robust security plan. Being able to promptly investigate unexpected changes in your environment or carefully perform a comprehensive analysis to iterate on your security posture typically relies on having access to necessary data. AWS recommends that you promptly write logs to an S3 bucket in an account designated for logging (Log Archive). 
@@ -36,13 +36,13 @@ If you’re looking to improve your cloud security, an excellent place to start 
     - Use AWS IAM Access Analyzer to review access to your internal AWS resources and determine where you have shared access outside your AWS accounts
 
 8) Take action on principal findings
-  - AWS managed services like AWS Security Hub, Amazon GuardDuty, and AWS Identity and Access Management Access Analyzer are easy to enable across multiple accounts
-  - Precisely define appropriate responses for each of the necessary actions to take. 
+    - AWS managed services like AWS Security Hub, Amazon GuardDuty, and AWS Identity and Access Management Access Analyzer are easy to enable across multiple accounts
+    - Precisely define appropriate responses for each of the necessary actions to take. 
 
 9) Rotate your keys
-  - Ensure all long-lived credentials like API key or Database password are rotated at regular frequency to minimize the change of incriminating it
-  - AWS Secrets Manager allows you to rotate, manage, and retrieve database credentials, API keys, and other secrets through their lifecycle 
+    - Ensure all long-lived credentials like API key or Database password are rotated at regular frequency to minimize the change of incriminating it
+    - AWS Secrets Manager allows you to rotate, manage, and retrieve database credentials, API keys, and other secrets through their lifecycle 
 
 10) Be involved in the dev cycle
-  - All the previous points extremely focus on enabling the right AWS services but along with that equally invest in security training for the employees and induce them to genuinely understand all the security best practice
-  - Define the right security guidance/proper posture and enable it across the organization.
+    - All the previous points extremely focus on enabling the right AWS services but along with that equally invest in security training for the employees and induce them to genuinely understand all the security best practice
+    - Define the right security guidance/proper posture and enable it across the organization.
