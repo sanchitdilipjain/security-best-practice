@@ -7,6 +7,7 @@ If you’re looking to improve your cloud security, an excellent place to start 
 
 
 1) Account information
+
     - Configure right contact info under AWS console management including the email address used to set up the account and those listed under Alternate Contacts. As same details are used by AWS for any communication including security breach information
     - Map a group email address under contact info instead of a single person for more reach
 
