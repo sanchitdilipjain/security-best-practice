@@ -1,4 +1,4 @@
-**Ten things you should watch out for and spend time**
+**Ten security tips**
 
 
 If you’re looking to improve your cloud security, an excellent place to start is to follow the top 10 most important cloud security tips that Stephen Schmidt, Chief Information Security Officer for AWS, laid out at AWS re:Invent 2019. Underneath represent the tips, expanded to aid you to take action.
