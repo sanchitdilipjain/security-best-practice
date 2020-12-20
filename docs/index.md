@@ -3,6 +3,8 @@
 
 If you’re looking to improve your cloud security, an excellent place to start is to follow the top 10 most important cloud security tips that Stephen Schmidt, Chief Information Security Officer for AWS, laid out at AWS re:Invent 2019. Underneath represent the tips, expanded to aid you to take action.
 
+<img src="image/image.png" class="inline"/>
+
 
 1) Account information
     - Configure right contact info under AWS console management including the email address used to set up the account and those listed under Alternate Contacts. As same details are used by AWS for any communication including security breach information
